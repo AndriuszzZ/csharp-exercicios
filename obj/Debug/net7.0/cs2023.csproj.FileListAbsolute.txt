@@ -1,0 +1,15 @@
+C:\Users\andre.lima2\Documents\cs2023\cs2023\bin\Debug\net7.0\cs2023.exe
+C:\Users\andre.lima2\Documents\cs2023\cs2023\bin\Debug\net7.0\cs2023.deps.json
+C:\Users\andre.lima2\Documents\cs2023\cs2023\bin\Debug\net7.0\cs2023.runtimeconfig.json
+C:\Users\andre.lima2\Documents\cs2023\cs2023\bin\Debug\net7.0\cs2023.dll
+C:\Users\andre.lima2\Documents\cs2023\cs2023\bin\Debug\net7.0\cs2023.pdb
+C:\Users\andre.lima2\Documents\cs2023\cs2023\obj\Debug\net7.0\cs2023.csproj.AssemblyReference.cache
+C:\Users\andre.lima2\Documents\cs2023\cs2023\obj\Debug\net7.0\cs2023.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\andre.lima2\Documents\cs2023\cs2023\obj\Debug\net7.0\cs2023.AssemblyInfoInputs.cache
+C:\Users\andre.lima2\Documents\cs2023\cs2023\obj\Debug\net7.0\cs2023.AssemblyInfo.cs
+C:\Users\andre.lima2\Documents\cs2023\cs2023\obj\Debug\net7.0\cs2023.csproj.CoreCompileInputs.cache
+C:\Users\andre.lima2\Documents\cs2023\cs2023\obj\Debug\net7.0\cs2023.dll
+C:\Users\andre.lima2\Documents\cs2023\cs2023\obj\Debug\net7.0\refint\cs2023.dll
+C:\Users\andre.lima2\Documents\cs2023\cs2023\obj\Debug\net7.0\cs2023.pdb
+C:\Users\andre.lima2\Documents\cs2023\cs2023\obj\Debug\net7.0\cs2023.genruntimeconfig.cache
+C:\Users\andre.lima2\Documents\cs2023\cs2023\obj\Debug\net7.0\ref\cs2023.dll
