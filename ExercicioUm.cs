@@ -6,6 +6,9 @@ namespace NamespaceProgram
     {
         public static void main(string[] args)
         {
+            int menu = 0;
+
+            do{
             Console.WriteLine("Exercicios");
             Console.WriteLine("menu: ");
             Console.WriteLine("0 - Sair");
@@ -21,9 +24,7 @@ namespace NamespaceProgram
             Console.WriteLine("10 - Variável com ponto em string e conversão para inteiro");
             Console.WriteLine("11 - Recebendo o salário e mostrando o valor de imposto de renda"); 
 
-            int menu = 0;
-
-            do{
+            
                 menu = int.Parse(Console.ReadLine());
                 switch (menu)
                 {
@@ -151,22 +152,10 @@ namespace NamespaceProgram
         // 7 -----------------------------------------------------------------------------
         public static void calcularImposto()
         {
-            double salario = 0;
-            double persentual = -1;
+          double faturamento = 5;
+          double qtdimposto = 50;
 
-            if(salario <= 1903.98){
-                persentual = 0;
-            }else if (salario <= 1903.98 && salario >= 2826.65){
-                persentual = 7.5;
-            }else if (salario <= 2826.65 && salario >= 3751.05){
-                persentual = 15;
-            }else if (salario <= 3751.06 && salario >= 5664.68){
-                persentual = 22.5;
-            }else if (salario > 5664.68 ){
-                persentual = 27.5;
-            }
-
-            Console.WriteLine($"O percentual de imposto que foi pago é {(5,50)}");
+          Console.writeLine($"O persentual de imposto pago é {(qtdimposto * 100 / faturamento)}");
         }
         
         // 8 -----------------------------------------------------------------------------
@@ -221,7 +210,22 @@ namespace NamespaceProgram
         // 11 -----------------------------------------------------------------------------
         public static void mostrarImposto()
         {
+            double salario = 0;
+            double persentual = -1;
 
+            if(salario <= 1903.98){
+                persentual = 0;
+            }else if (salario <= 1903.98 && salario >= 2826.65){
+                persentual = 7.5;
+            }else if (salario <= 2826.65 && salario >= 3751.05){
+                persentual = 15;
+            }else if (salario <= 3751.06 && salario >= 5664.68){
+                persentual = 22.5;
+            }else if (salario > 5664.68 ){
+                persentual = 27.5;
+            }
+
+            Console.WriteLine($"O percentual de imposto que foi pago é {(5,50)}");
         }
         
     }
