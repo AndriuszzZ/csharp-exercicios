@@ -1,10 +1,9 @@
 ﻿using System;
-
-namespace NamespaceProgram
-{
+ namespace cs
+ {
     public class ExercicioUm
     {
-        public static void main(string[] args)
+        public static void Call()
         {
             int menu = 0;
 
@@ -25,7 +24,7 @@ namespace NamespaceProgram
             Console.WriteLine("11 - Recebendo o salário e mostrando o valor de imposto de renda"); 
 
             
-                menu = int.Parse(Console.ReadLine());
+            menu = Int32.Parse(Console.ReadLine());
                 switch (menu)
                 {
                     case 0:
@@ -59,7 +58,7 @@ namespace NamespaceProgram
                         compString();
                         break;    
                     case 10:
-                        pontoemString();
+                        // pontoemString();
                         break;
                     case 11:
                         mostrarImposto();
@@ -77,9 +76,9 @@ namespace NamespaceProgram
         {
             int numeroUm = 9;
             int numeroDois = 7;
-            int numerotres = 8;
+            int numeroTres = 8;
 
-            Console.writeLine($"A média é {(numeroUm + numeroDois + numeroTres)/ 3}");
+            Console.WriteLine($"A média é {(numeroUm + numeroDois + numeroTres)/ 3}");
         }
 
         // 2 -----------------------------------------------------------------------------
@@ -88,7 +87,7 @@ namespace NamespaceProgram
             int ladoUm = 10;
             int ladoDois = 5;
 
-            Console.writeLine($"O resultado da área é {ladoUm * ladoDois2}");    
+            Console.WriteLine($"O resultado da área é {ladoUm * ladoDois}");    
         }
 
         // 3 -----------------------------------------------------------------------------
@@ -100,7 +99,7 @@ namespace NamespaceProgram
 
             double volume = largura * altura * profundidade;
 
-            Console.writeLine($"O cálculo total do volume é: " + volume);
+            Console.WriteLine($"O cálculo total do volume é: " + volume);
         }
 
         // 4 -----------------------------------------------------------------------------
@@ -128,16 +127,16 @@ namespace NamespaceProgram
             double x2 = 0;
 
             if(delta < 0){
-            console.writeLine($"Delta é negativo");
+            Console.WriteLine($"Delta é negativo");
             }else if (delta == 0){
             x1 = - b / (2 * a);
             x2 = x1;
             }else{
-            x1 = (-b + math.sqrt(delta)) / (2 * a);
-            x1 = (-b + math.sqrt(delta)) / (2 * a);
+            x1 = (-b + Math.Sqrt(delta)) / (2 * a);
+            x1 = (-b - Math.Sqrt(delta)) / (2 * a);
             }
-            Console.writeLine($"O valor de x1 é {(x1)}");
-            Console.writeLine($"O valor de x2 é {(x2)}");
+            Console.WriteLine($"O valor de x1 é {(x1)}");
+            Console.WriteLine($"O valor de x2 é {(x2)}");
         }
         
         // 6 -----------------------------------------------------------------------------
@@ -155,7 +154,7 @@ namespace NamespaceProgram
           double faturamento = 5;
           double qtdimposto = 50;
 
-          Console.writeLine($"O persentual de imposto pago é {(qtdimposto * 100 / faturamento)}");
+          Console.WriteLine($"O persentual de imposto pago é {(qtdimposto * 100 / faturamento)}");
         }
         
         // 8 -----------------------------------------------------------------------------
@@ -173,7 +172,7 @@ namespace NamespaceProgram
             {
                 Console.WriteLine("\n Este número é ÍMPAR");
             }
-                Console.RealKey();
+                // Console.RealKey();
         }
         
         // 9 -----------------------------------------------------------------------------
@@ -193,19 +192,18 @@ namespace NamespaceProgram
         }
         
         // 10 -----------------------------------------------------------------------------
-        public static void pontoemString()
-        {    
-            string input = String.Empty;
+        // public static void pontoemString(){    
+        //     string input = String.Empty;
 
-            if (Int32.TryParse(Console.ReadLine(), out input))
-            {
-                Console.WriteLine(j);
-            }
-            else
-            {
-                Console.WriteLine("String could not be parsed");
-            }
-        }
+        //     if (Int32.TryParse(Console.ReadLine(), out input))
+        //     {
+        //         Console.WriteLine(j);
+        //     }
+        //     else
+        //     {
+        //         Console.WriteLine("String could not be parsed");
+        //     }
+        // }
         
         // 11 -----------------------------------------------------------------------------
         public static void mostrarImposto()
@@ -229,4 +227,5 @@ namespace NamespaceProgram
         }
         
     }
+
 }
